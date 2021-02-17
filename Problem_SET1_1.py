@@ -2,8 +2,12 @@
 
 # Assume s is a string of lower case characters.
 
-'''Write a program that counts up the number of vowels contained in the string s. Valid vowels are: 'a', 'e', 'i', 'o', and 'u'. 
-For example, if s = 'azcbobobegghakl', your program should print: '''
+'''
+
+Write a program that counts up the number of vowels contained in the string s. Valid vowels are: 'a', 'e', 'i', 'o', and 'u'. 
+For example, if s = 'azcbobobegghakl', your program should print: 
+
+'''
 
 vowels = 0
 for char in s:
@@ -13,7 +17,11 @@ print("Number of vowels:", vowels)
 
 
 
-# OUTPUT:
+'''
 
-# IN[] => s = 'eapbkajcu'
-# OUT[] => Number of vowels: 4
+OUTPUT:
+
+IN[] => s = 'eapbkajcu'
+OUT[] => Number of vowels: 4
+
+'''

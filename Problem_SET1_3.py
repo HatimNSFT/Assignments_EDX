@@ -1,6 +1,10 @@
 # Assume s is a string of lower case characters.
 
-''' Write a program that prints the longest substring of s in which the letters occur in alphabetical order '''
+''' 
+
+Write a program that prints the longest substring of s in which the letters occur in alphabetical order 
+
+'''
 
 
 
@@ -34,15 +38,16 @@ def longest_substring(input_string):     # Function which takes an Input String
 
 for strng in range(len(input_list)):
 	res = longest_substring(input_list[strng])
-	print(f"Longest Substring of {input_list[strng]} is: {res}")   # applies the function on the list of strings and returns the output.
+	print(f"Longest Substring of {input_list[strng]} is: {res}")   # applies the function and gets the output.
 
 
-# OUTPUT:
 '''
 
+OUTPUT:
+
 OUT[]: Longest Substring of pufhfqzqkvszza is: fqz
-	   Longest Substring of jafyralpkjatvqrlnuv is: lnuv
-	   Longest Substring of gadumzqj is: adu
-	   Longest Substring of abcdefghijklmnopqrstuvwxyz is: abcdefghijklmnopqrstuvwxyz
+       Longest Substring of jafyralpkjatvqrlnuv is: lnuv
+       Longest Substring of gadumzqj is: adu
+       Longest Substring of abcdefghijklmnopqrstuvwxyz is: abcdefghijklmnopqrstuvwxyz
 
 '''

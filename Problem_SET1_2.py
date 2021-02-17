@@ -2,8 +2,12 @@
 
 # Assume s is a string of lower case characters.
 
-''' Write a program that prints the number of times the string 'bob' occurs in s. 
-    For example, if s = 'azcbobobegghakl', then your program should print '''
+''' 
+
+Write a program that prints the number of times the string 'bob' occurs in s. 
+For example, if s = 'azcbobobegghakl', then your program should print 
+
+'''
 
 input_string = 'azcbobobegghakl'
 sub_string = 'bob'
@@ -16,6 +20,10 @@ for i in range(len(input_string)):
 print(f"Number of times {sub_string} occurs is: {res}")
 
 
-# OUTPUT:
+'''
 
-# OUT[] => Number of times bob occurs is: 4
+OUTPUT:
+
+OUT[] => Number of times bob occurs is: 4
+
+'''
